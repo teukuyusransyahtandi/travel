@@ -1,13 +1,19 @@
 package decorator;
-public class Review extends PaketTour {
+public class Review {
+    String nama = "";
+    String comment = "";
+    Paket paket;
 
-    public Review(Paket c) {
-        super(c);
+    public Review(Paket paket) {
+        this.paket=paket;
     }
 
-    @Override
-    public void tambah(){
-        super.tambah();
-        System.out.print(" Tambah Review Baru");
+    public String getReviews() {
+        return null;
+    }
+
+    public void tambahReview(String nama, String comment) {
+        this.nama = nama;
+        this.comment = comment;
     }
 }

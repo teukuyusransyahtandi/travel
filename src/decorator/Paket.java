@@ -1,5 +1,11 @@
 package decorator;
 
-public interface Paket {
-    public void tambah();
+public abstract class Paket {
+    String description = "Basic Paket";
+
+    public String getDescription() {
+        return description;
+    }
+
+    public abstract double price();
 }
