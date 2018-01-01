@@ -10,14 +10,14 @@ public class SingletonTest {
                     + "telah login");
         } else {
             System.out.println("Belum ada user yang login");
-            System.out.println("Masukkan username: ");
+            System.out.println("Masukkan Email: ");
             String username = input.nextLine();
             System.out.println("Masukkan password: ");
             String password = input.nextLine();
             CurrentUser.login(username, password);
         }
         System.out.println("\nUser yang telah login:");
-        System.out.println("Username: " + CurrentUser.user().getUsername());
+        System.out.println("Email: " + CurrentUser.user().getUsername());
         System.out.println("Password: " + CurrentUser.user().getPassword());
         System.out.println("\nUser akan logout...");
         CurrentUser.logout();
