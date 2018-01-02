@@ -10,7 +10,7 @@ public class ObserverPatternTest {
         SmartphoneDisplay smartphoneDisplay2 = new SmartphoneDisplay(dataPaket,"xiaomi");
         SmartphoneDisplay smartphoneDisplay3 = new SmartphoneDisplay(dataPaket,"iphone");
         dataPaket.setMeasurements("Paket Tahun Baru Masehi", 70000, "Paket yang hanya ada di malam tahun baru !");
-        dataPaket.setMeasurements("Paket valentine", 100000, "Paket bagi kamu yang suka ena ena!");
+        dataPaket.setMeasurements("Paket valentine", 100000, "Paket bagi kamu yang suka makan ena ena!");
 
 
     }
