@@ -9,6 +9,7 @@ public class DecoratorPatternTest {
         paket1.addPhoto("haha2.jpg");
 
         paket1.addReview("anonim", "paketnya jelek ga bagus :p");
+        paket1.addReview("yusran", "paketnya jelek ga bagus :p");
 
         System.out.println(paket1.getDescription());
         System.out.println(paket1.getReview());
